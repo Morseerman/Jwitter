@@ -6,48 +6,32 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch RunApp",
+            "name": "Server",
             "request": "launch",
-            "mainClass": "application.RunApp",
-            "projectName": "Jwitter_f9d66e7a"
+            "mainClass": "connection.Server",
+            "projectName": "Jwitter_2bd2b176"
         },
         {
             "type": "java",
-            "name": "Launch Testing",
+            "name": "Window",
             "request": "launch",
-            "mainClass": "application.Testing",
-            "projectName": "Jwitter_f9d66e7a",
-            "vmArgs": "--module-path C:/Users/Jay/Desktop/Uni/Java/Jwitter/extensions/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
-        },
+            "mainClass": "Window",
+            "projectName": "Jwitter_2bd2b176",
+            "vmArgs": "--module-path extensions\\javafx-sdk-11.0.2\\lib --add-modules javafx.controls,javafx.fxml"
+        },        
         {
             "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch Client",
-            "request": "launch",
-            "mainClass": "Client",
-            "projectName": "Jwitter_f9d66e7a",
-            "vmArgs": "--module-path C:/Users/Jay/Desktop/Uni/Java/Jwitter/extensions/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Launch Server",
+            "name": "Server",
             "request": "launch",
             "mainClass": "Server",
-            "projectName": "Jwitter_f9d66e7a",
-            "vmArgs": "--module-path C:/Users/Jay/Desktop/Uni/Java/Jwitter/extensions/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
+            "projectName": "Jwitter_2bd2b176"
         },
         {
             "type": "java",
-            "name": "Launch Testing",
+            "name": "Client",
             "request": "launch",
-            "mainClass": "Testing",
-            "projectName": "Jwitter_f9d66e7a",
-            "vmArgs": "--module-path C:/Users/Jay/Desktop/Uni/Java/Jwitter/extensions/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
+            "mainClass": "Client",
+            "projectName": "Jwitter_2bd2b176"
         }
     ]
 }

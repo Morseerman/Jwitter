@@ -1,14 +1,6 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "json-simple-1.1.1(5).jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
-        "c:\\Users\\Jay\\Downloads\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
         "extensions/javafx-sdk-11.0.2/lib/javafx.base.jar",
         "extensions/javafx-sdk-11.0.2/lib/javafx.controls.jar",
         "extensions/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
@@ -16,6 +8,7 @@
         "extensions/javafx-sdk-11.0.2/lib/javafx.media.jar",
         "extensions/javafx-sdk-11.0.2/lib/javafx.swing.jar",
         "extensions/javafx-sdk-11.0.2/lib/javafx.web.jar",
-        "extensions/javafx-sdk-11.0.2/lib/javafx-swt.jar"
+        "extensions/javafx-sdk-11.0.2/lib/javafx-swt.jar",
+        "extensions/json-simple-1.1.1(5).jar"
     ]
 }

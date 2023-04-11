@@ -1,3 +1,5 @@
+package connection;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +11,7 @@ public class Client {
     private static final String SERVER_IP = "127.0.0.1";
     private static final int PORT = 12345;
 
-    public static void main(String[] args) throws IOException 
+    public static void start() throws IOException 
     {
         //Establishes Connection
         Socket socket = new Socket(SERVER_IP, PORT);

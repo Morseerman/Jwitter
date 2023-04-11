@@ -1,4 +1,4 @@
-package application;
+
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -9,7 +9,11 @@ import javafx.stage.Stage;
 import javafx.scene.paint.Color;
 import javafx.scene.Node;
 
-public class Testing extends Application implements EventHandler<ActionEvent>
+import java.io.IOException;
+
+import connection.Client;
+
+public class Window extends Application implements EventHandler<ActionEvent>
 {       
     
     private StageGUI mainMenuScreen = new StageGUI();
@@ -17,16 +21,18 @@ public class Testing extends Application implements EventHandler<ActionEvent>
     private LoginScreen loginScreen = new LoginScreen();
     private UserHomeScreen userHomeScreen = new UserHomeScreen();
 
-    public static void main(String[] args) 
+    public static void main(String[] args) throws IOException 
     {
         // runs 'start()' function
         launch();     
         
+             
     }
 
     @Override
     public void start(Stage stage) throws Exception 
     {
+        Client.start();
         openMainMenuScreen(stage); 
         
     } 

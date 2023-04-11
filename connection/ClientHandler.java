@@ -1,3 +1,5 @@
+package connection;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -376,19 +378,19 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    // public void jsonEndoding(String message)
-    // {
-    //     JSONObject jsonObject = new JSONObject();
+    public void jsonEndoding(String message)
+    {
+        // JSONObject jsonObject = new JSONObject();
 
-    //     String text;
+        // String text;
 
-    //     jsonObject.put("name", getName());
-    //     jsonObject.put("message", message);
+        // jsonObject.put("name", getName());
+        // jsonObject.put("message", message);
         
-    //     text = jsonObject.toString();
-    //     out.println(text);
+        // text = jsonObject.toString();
+        // out.println(text);
         
-    // }
+    }
 
     
     

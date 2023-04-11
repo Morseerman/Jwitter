@@ -1,4 +1,4 @@
-package application;
+import connection.Client;
 
 import javafx.scene.Group;
 import javafx.scene.Scene;

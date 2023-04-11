@@ -1,4 +1,4 @@
-package application;
+import connection.Client;
 
 import java.util.ArrayList;
 import javafx.scene.Group;
@@ -88,7 +88,7 @@ public class StageGUI
 
         return passwordTextBox;
     }
-    public Button drawButton(Testing t, String buttonText, int locationX, int locationY)
+    public Button drawButton(Window t, String buttonText, int locationX, int locationY)
     {
         Button button = new Button(buttonText);
         button.setOnAction(t);
